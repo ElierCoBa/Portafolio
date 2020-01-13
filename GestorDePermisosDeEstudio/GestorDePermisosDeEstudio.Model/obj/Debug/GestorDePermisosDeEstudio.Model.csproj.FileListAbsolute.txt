@@ -1,5 +1,0 @@
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Model\bin\Debug\GestorDePermisosDeEstudio.Model.dll
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Model\bin\Debug\GestorDePermisosDeEstudio.Model.pdb
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Model\obj\Debug\GestorDePermisosDeEstudio.Model.csproj.CoreCompileInputs.cache
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Model\obj\Debug\GestorDePermisosDeEstudio.Model.dll
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Model\obj\Debug\GestorDePermisosDeEstudio.Model.pdb

@@ -1,9 +1,0 @@
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\bin\Debug\GestorDePermisosDeEstudio.Business.dll
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\bin\Debug\GestorDePermisosDeEstudio.Business.pdb
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\bin\Debug\GestorDePermisosDeEstudio.DataAccess.dll
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\bin\Debug\GestorDePermisosDeEstudio.DataAccess.pdb
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\obj\Debug\GestorDePermisosDeEstudio.Business.csprojAssemblyReference.cache
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\obj\Debug\GestorDePermisosDeEstudio.Business.csproj.CoreCompileInputs.cache
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\obj\Debug\GestorDePermisosDeEstudio.Business.csproj.CopyComplete
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\obj\Debug\GestorDePermisosDeEstudio.Business.dll
-C:\Users\Elier CoBa\source\repos\GestorDePermisosDeEstudio\GestorDePermisosDeEstudio.Business\obj\Debug\GestorDePermisosDeEstudio.Business.pdb
