@@ -20,8 +20,12 @@ namespace GestorDeReciclaje
         private int ContadorEspeciales;
         private int ContadorBioinfecciosos;
         private int ContadorAluminio;
+        private int Puntos;
         private bool Presionar;
         private Point PuntoInicial;
+        private IEnumerable<Button> ListaDeBotones;
+        private System.Diagnostics.Stopwatch Temporizador = new System.Diagnostics.Stopwatch();
+        
 
         public FormularioDeReciclaje()
         {
@@ -35,16 +39,25 @@ namespace GestorDeReciclaje
             this.ContadorEspeciales = 0;
             this.ContadorOrdinarios = 0;
             this.ContadorPlastico = 0;
+            this.Puntos = 0;
             this.Presionar = false;
+            this.ListaDeBotones = Controls.OfType<Button>();
+            lblCronometro.Text = "00:00:00";
+
+
 
             //primero le quita el tipo control, se determina que solo se van a mover si son botones y se convierte en una lista para aplicar el ForEach
+
             this.Controls.OfType<Control>().Where(elControl => elControl is Button).ToList().ForEach(elControl =>
             {
                 elControl.MouseDown += PresionarElBoton;
                 elControl.MouseUp += SoltarElBoton;
                 elControl.MouseMove += MoverElBoton;
+                if (lblCronometro.Text == "00:00:00") Temporizador.Start();
+             
 
-            });
+            });    
+            
 
         }
 
@@ -57,12 +70,11 @@ namespace GestorDeReciclaje
                 //se asigna la posición actual del cursos, más la separación del botón con el formulario y menos el punto inicial
                 elControlDeMovimiento.Left = e.X + elControlDeMovimiento.Left - PuntoInicial.X;
                 elControlDeMovimiento.Top = e.Y + elControlDeMovimiento.Top - PuntoInicial.Y;
-
             }
         }
 
         private void SoltarElBoton(object sender, MouseEventArgs e) => Presionar = false;
-
+     
 
         //se pregunta si es el botón izquierdo el que si clickeo, y se obtine la localización del mouse
         private void PresionarElBoton(object sender, MouseEventArgs e)
@@ -541,19 +553,72 @@ namespace GestorDeReciclaje
             if (TerminarPartida())
             {
                 lblFelicitacion.Text = "¡Felicidades has clasificado\n bien tus residuos!";
+                lblCronometro.Text = "00:00:00";
+                Temporizador.Reset();
             }
         }
 
         public Boolean TerminarPartida()
         {
-            if (ContadorPlastico == 5 && ContadorPapel == 5 && ContadorVidrio == 5 && ContadorOrganicos == 5
-                && ContadorAluminio == 5 && ContadorBioinfecciosos == 5 && ContadorEspeciales == 5 && ContadorOrdinarios == 5)
+            if (ContadorPlastico >= 1 && ContadorPapel >= 1 && ContadorVidrio >= 1 && ContadorOrganicos >= 1
+                && ContadorAluminio >= 1 && ContadorBioinfecciosos >= 1 && ContadorEspeciales >= 1 && ContadorOrdinarios >= 1)
             {
+                OcultarBotones();
+
                 return true;
             }
             return false;
         }
 
-       
+    
+
+        private void PreguntarParaSalir(object sender, FormClosingEventArgs e)
+        {
+            DialogResult YesOrNO = MessageBox.Show("¿Realmente desea continuar?", "¿Continuar?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (sender as Button != btnContinuar && YesOrNO == DialogResult.No) e.Cancel = true;
+            if (sender as Button == btnContinuar && YesOrNO == DialogResult.Yes) this.Close();
+        }
+
+        private void btnContinuar_Click(object sender, EventArgs e)
+        {
+            PreguntarParaSalir(sender, e as FormClosingEventArgs);
+        }
+
+        private void ActualizarTiempoTranscurrido(object sender, EventArgs e)
+        {
+            int losPuntosMaximos = 134;
+            int losPuntoObtenidos = 0;
+
+            if (Temporizador.Elapsed.ToString() != "00:00:00")
+            {
+                lblCronometro.Text = Temporizador.Elapsed.ToString().Remove(8);//pinta el tiempo de nuevo
+                Puntos++;
+                losPuntoObtenidos = losPuntosMaximos - Puntos;
+                lblPuntos.Text = "Puntos obtenidos: " + losPuntoObtenidos;
+                PartidaCompleta();
+            }
+            if (Temporizador.Elapsed.Minutes.ToString() == "2" && TerminarPartida() == false)//Determino la duración del juego
+            {
+                Temporizador.Stop();
+                lblCronometro.Text = "00:00:00";
+                lblPuntos.Text = "Puntos obtenidos: 0";
+                Puntos = 0;
+                lblFelicitacion.Text = "Se ha terminado el tiempo";
+                OcultarBotones();
+
+            }
+        }
+
+        public void OcultarBotones()
+        {
+            foreach (var elBoton in ListaDeBotones)
+            {
+                elBoton.Visible = false;
+            }
+
+            btnContinuar.Visible = true;
+            panelContinuar.Width = 185;
+            panelContinuar.Height = 58;
+        }
     }
 }

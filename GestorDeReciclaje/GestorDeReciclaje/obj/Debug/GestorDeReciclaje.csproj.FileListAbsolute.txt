@@ -1,4 +1,6 @@
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.exe.config
+C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.exe.manifest
+C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.application
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.exe
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.pdb
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\IrisSkin2.dll
@@ -6,11 +8,9 @@ C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\G
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.Properties.Resources.resources
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.csproj.GenerateResource.cache
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.exe.manifest
+C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.application
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.csproj.CopyComplete
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.exe
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.pdb
 C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.csprojAssemblyReference.cache
-C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.exe.manifest
-C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\bin\Debug\GestorDeReciclaje.application
-C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.exe.manifest
-C:\Users\Elier CoBa\source\repos\GestorDeReciclaje\GestorDeReciclaje\obj\Debug\GestorDeReciclaje.application
