@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiciosDeSorteosRestricciones" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ListarSorteos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteos" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ListarSorteos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ConsultarUnSorteosConRestricciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteosConRestricciones" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ConsultarUnSorteosConRestricciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteosConRestriccionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ConsultarFechaDeunSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarFechaDeunSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ConsultarFechaDeunSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarFechaDeunSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ExisteElSorteoConRestriccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteElSorteoConRestriccion" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ExisteElSorteoConRestriccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteElSorteoConRestriccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_CrearUnSorteoRestriccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:CrearUnSorteoRestriccion" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_CrearUnSorteoRestriccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CrearUnSorteoRestriccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_EditarUnSorteoRestriccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarUnSorteoRestriccion" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_EditarUnSorteoRestriccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarUnSorteoRestriccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ListarRestriccionDeSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarRestriccionDeSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServiciosDeSorteosRestricciones_ListarRestriccionDeSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarRestriccionDeSorteoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiciosDeSorteosRestricciones">
+    <wsdl:operation name="ListarSorteos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ListarSorteos" message="tns:IServiciosDeSorteosRestricciones_ListarSorteos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ListarSorteosResponse" message="tns:IServiciosDeSorteosRestricciones_ListarSorteos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteosConRestricciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ConsultarUnSorteosConRestricciones" message="tns:IServiciosDeSorteosRestricciones_ConsultarUnSorteosConRestricciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ConsultarUnSorteosConRestriccionesResponse" message="tns:IServiciosDeSorteosRestricciones_ConsultarUnSorteosConRestricciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarFechaDeunSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ConsultarFechaDeunSorteo" message="tns:IServiciosDeSorteosRestricciones_ConsultarFechaDeunSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ConsultarFechaDeunSorteoResponse" message="tns:IServiciosDeSorteosRestricciones_ConsultarFechaDeunSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExisteElSorteoConRestriccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ExisteElSorteoConRestriccion" message="tns:IServiciosDeSorteosRestricciones_ExisteElSorteoConRestriccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ExisteElSorteoConRestriccionResponse" message="tns:IServiciosDeSorteosRestricciones_ExisteElSorteoConRestriccion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CrearUnSorteoRestriccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/CrearUnSorteoRestriccion" message="tns:IServiciosDeSorteosRestricciones_CrearUnSorteoRestriccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/CrearUnSorteoRestriccionResponse" message="tns:IServiciosDeSorteosRestricciones_CrearUnSorteoRestriccion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarUnSorteoRestriccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/EditarUnSorteoRestriccion" message="tns:IServiciosDeSorteosRestricciones_EditarUnSorteoRestriccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/EditarUnSorteoRestriccionResponse" message="tns:IServiciosDeSorteosRestricciones_EditarUnSorteoRestriccion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarRestriccionDeSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ListarRestriccionDeSorteo" message="tns:IServiciosDeSorteosRestricciones_ListarRestriccionDeSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiciosDeSorteosRestricciones/ListarRestriccionDeSorteoResponse" message="tns:IServiciosDeSorteosRestricciones_ListarRestriccionDeSorteo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiciosDeSorteosRestricciones" type="tns:IServiciosDeSorteosRestricciones">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListarSorteos">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/ListarSorteos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteosConRestricciones">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/ConsultarUnSorteosConRestricciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarFechaDeunSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/ConsultarFechaDeunSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExisteElSorteoConRestriccion">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/ExisteElSorteoConRestriccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CrearUnSorteoRestriccion">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/CrearUnSorteoRestriccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarUnSorteoRestriccion">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/EditarUnSorteoRestriccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarRestriccionDeSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServiciosDeSorteosRestricciones/ListarRestriccionDeSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiciosDeSorteosRestricciones">
+    <wsdl:port name="BasicHttpBinding_IServiciosDeSorteosRestricciones" binding="tns:BasicHttpBinding_IServiciosDeSorteosRestricciones">
+      <soap:address location="http://localhost:50469/ServiciosDeSorteosRestricciones.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

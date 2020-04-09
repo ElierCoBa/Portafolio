@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicioDeSorteos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50469/ServicioDeSorteos.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50469/ServicioDeSorteos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50469/ServicioDeSorteos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicioDeSorteos_ListarSorteos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ListarSorteos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_AgregarSorteosHistoricos_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarSorteosHistoricos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_AgregarSorteosHistoricos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarSorteosHistoricosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ListarSorteosHistoricos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosHistoricos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ListarSorteosHistoricos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosHistoricosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ConsultarUnSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ConsultarUnSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_InactivarUnSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InactivarUnSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_InactivarUnSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InactivarUnSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ActivarUnSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivarUnSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_ActivarUnSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivarUnSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_AgregarSorteos_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarSorteos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeSorteos_AgregarSorteos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarSorteosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioDeSorteos">
+    <wsdl:operation name="ListarSorteos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/ListarSorteos" message="tns:IServicioDeSorteos_ListarSorteos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/ListarSorteosResponse" message="tns:IServicioDeSorteos_ListarSorteos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarSorteosHistoricos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/AgregarSorteosHistoricos" message="tns:IServicioDeSorteos_AgregarSorteosHistoricos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/AgregarSorteosHistoricosResponse" message="tns:IServicioDeSorteos_AgregarSorteosHistoricos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteosHistoricos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/ListarSorteosHistoricos" message="tns:IServicioDeSorteos_ListarSorteosHistoricos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/ListarSorteosHistoricosResponse" message="tns:IServicioDeSorteos_ListarSorteosHistoricos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/ConsultarUnSorteo" message="tns:IServicioDeSorteos_ConsultarUnSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/ConsultarUnSorteoResponse" message="tns:IServicioDeSorteos_ConsultarUnSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InactivarUnSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/InactivarUnSorteo" message="tns:IServicioDeSorteos_InactivarUnSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/InactivarUnSorteoResponse" message="tns:IServicioDeSorteos_InactivarUnSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivarUnSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/ActivarUnSorteo" message="tns:IServicioDeSorteos_ActivarUnSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/ActivarUnSorteoResponse" message="tns:IServicioDeSorteos_ActivarUnSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarSorteos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeSorteos/AgregarSorteos" message="tns:IServicioDeSorteos_AgregarSorteos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeSorteos/AgregarSorteosResponse" message="tns:IServicioDeSorteos_AgregarSorteos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicioDeSorteos" type="tns:IServicioDeSorteos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListarSorteos">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/ListarSorteos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarSorteosHistoricos">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/AgregarSorteosHistoricos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteosHistoricos">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/ListarSorteosHistoricos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/ConsultarUnSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InactivarUnSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/InactivarUnSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivarUnSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/ActivarUnSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarSorteos">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeSorteos/AgregarSorteos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioDeSorteos">
+    <wsdl:port name="BasicHttpBinding_IServicioDeSorteos" binding="tns:BasicHttpBinding_IServicioDeSorteos">
+      <soap:address location="http://localhost:50469/ServicioDeSorteos.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

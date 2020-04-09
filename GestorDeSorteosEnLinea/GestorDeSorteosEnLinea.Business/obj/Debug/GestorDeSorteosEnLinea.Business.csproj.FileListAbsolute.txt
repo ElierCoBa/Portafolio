@@ -1,0 +1,226 @@
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Business.dll.config
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Business.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Business.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Identity.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Bson.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.AppContext.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Buffers.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Console.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.Compression.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Net.Http.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Net.Sockets.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Helpers.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Razor.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Identity.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Bson.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Helpers.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Razor.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.csproj.CopyComplete
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Business.dll.config
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Business.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Business.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Identity.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Bson.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.AppContext.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Buffers.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Console.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.Compression.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Net.Http.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Net.Sockets.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Helpers.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Razor.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.Identity.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Bson.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Helpers.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.Razor.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.csproj.CopyComplete
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Business\obj\Debug\GestorDeSorteosEnLinea.Business.pdb

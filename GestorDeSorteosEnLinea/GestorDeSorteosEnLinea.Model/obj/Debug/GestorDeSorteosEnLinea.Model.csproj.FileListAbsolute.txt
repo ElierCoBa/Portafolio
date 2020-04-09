@@ -1,0 +1,12 @@
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.Model\obj\Debug\GestorDeSorteosEnLinea.Model.pdb

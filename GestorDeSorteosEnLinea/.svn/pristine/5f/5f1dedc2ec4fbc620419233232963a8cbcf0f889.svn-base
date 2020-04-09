@@ -1,0 +1,43 @@
+﻿@model GestorDeSorteosEnLinea.Model.Sorteos
+
+
+@{
+    ViewBag.Title = "Activar sorteo";
+   
+}
+
+<h2>Activar sorteo</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <b><p>Descripción de la modificación</p></b>
+
+
+    <textarea name="DescripcionDeLaModificacion" required class="form-control" rows="2" cols="30"></textarea>
+ 
+    <br />
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Activar" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Regresar", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

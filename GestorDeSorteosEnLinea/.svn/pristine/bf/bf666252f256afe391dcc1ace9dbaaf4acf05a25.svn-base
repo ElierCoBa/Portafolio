@@ -1,0 +1,61 @@
+﻿@model IEnumerable<GestorDeSorteosEnLinea.Model.SorteosHistorico>
+@{ 
+    GestorDeSorteosEnLinea.ServicioDeSorteos.ServicioDeSorteosClient elClienteDeSorteo = new GestorDeSorteosEnLinea.ServicioDeSorteos.ServicioDeSorteosClient();
+    GestorDeSorteosEnLinea.Model.AspNetUsers elUsuario = new GestorDeSorteosEnLinea.Model.AspNetUsers();
+
+}
+
+<h2>Detalles de sorteo</h2>
+<dt>
+    @Html.DisplayName("Fecha")
+</dt>
+
+<dd>
+    @ViewData["FechaDeSorteo"]
+</dd>
+<dt>
+    @Html.DisplayName("Estado")
+</dt>
+
+<dd>
+    @ViewData["EstadoSorteo"]
+</dd>
+
+<h2>Detalles de sorteos historicios</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Nombre del usuario")
+        </th>
+        <th>
+            @Html.DisplayName("Fecha de modificación")
+        </th>
+        <th>
+            @Html.DisplayName("Descripción de la modificación")
+        </th>
+     
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @{elUsuario = elClienteDeSorteo.ConsultarUnUsuario(item.Id_AspNetUser);}
+                @Html.Encode(elUsuario.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeModificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescripcionDeLaModificacion)
+            </td>
+      
+        </tr>
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Regresar", "Index")
+</div>

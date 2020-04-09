@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
+namespace GestorDeSorteosEnLinea.Model
+{
+  public class SorteosRestricciones
+    {
+        public int Id { get; set; }
+        public int Numero { get; set; }
+        public Decimal MontoMaximo { get; set; }
+        public int IdSorteos { get; set; }
+ 
+    }
+}

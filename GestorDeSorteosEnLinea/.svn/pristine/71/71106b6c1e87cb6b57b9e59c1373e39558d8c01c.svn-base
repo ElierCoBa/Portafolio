@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+
+namespace GestorDeSorteosEnLinea.SI
+{
+
+    [ServiceContract]
+    public interface IServicioDeSorteos
+    {
+        [OperationContract]
+        List<GestorDeSorteosEnLinea.Model.Sorteos> ListarSorteos();
+        [OperationContract]
+        void AgregarSorteosHistoricos(GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, int elIdDelSorteo);
+        [OperationContract]
+        List<GestorDeSorteosEnLinea.Model.SorteosHistorico> ListarSorteosHistoricos(int elIdDelSorteo);
+        [OperationContract]
+        GestorDeSorteosEnLinea.Model.Sorteos ConsultarUnSorteo(int id);
+        [OperationContract]
+        void InactivarUnSorteo(Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, string laDescripcionDeLaModificacion);
+        [OperationContract]
+        void ActivarUnSorteo(Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, string laDescripcionDeLaModificacion);
+        [OperationContract]
+        void AgregarSorteos(Model.Sorteos elSorteo, Model.SorteosHistorico elSorteoHistorico);
+        //[OperationContract]
+        //Model.AspNetUsers ConsultarUnUsuario(string id);
+
+    }
+}

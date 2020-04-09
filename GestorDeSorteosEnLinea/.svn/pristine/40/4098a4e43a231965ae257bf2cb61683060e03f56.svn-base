@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class SorteosCerradosController : Controller
+    {
+        public ActionResult Index()
+        {
+
+            ServicioDeSorteos.ServicioDeSorteosClient elClienteDeServiciosDeSorteos = new ServicioDeSorteos.ServicioDeSorteosClient();
+
+            var laListaDeSorteos = elClienteDeServiciosDeSorteos.ListarSorteosCerrados();
+            return View(laListaDeSorteos);
+        }
+
+
+      
+        public ActionResult Details(int id)
+        {
+           
+            
+                ServicioDeSorteos.ServicioDeSorteosClient elClienteDeServiciosDeSorteos = new ServicioDeSorteos.ServicioDeSorteosClient();
+                var laListaDeSorteos = elClienteDeServiciosDeSorteos.ConsultarUnSorteo(id);
+                return View(laListaDeSorteos);
+            
+        }
+
+       
+        
+    }
+}

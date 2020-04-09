@@ -1,0 +1,114 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class SorteosRestriccionesController : Controller
+    {
+        // GET: SorteosRestricciones
+        public ActionResult Index()
+        {
+
+            ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elServicioDeSorteosRestricciones;
+            elServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+
+            var laListaDeSorteos = elServicioDeSorteosRestricciones.ListarSorteos();
+
+            return View(laListaDeSorteos);
+
+            
+        }
+
+        
+        public ActionResult Detalles(int id)
+        {
+            ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elServicioDeSorteosRestricciones;
+            elServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+
+            var elSorteoRestrccionConsultado=elServicioDeSorteosRestricciones.ConsultarUnSorteosConRestricciones(id);
+
+            ViewBag.Opciones = elServicioDeSorteosRestricciones.ConsultarFechaDeunSorteo(id);
+
+            return View(elSorteoRestrccionConsultado);
+        }
+
+        // GET: SorteosRestricciones/Create
+        public ActionResult Create(int id)
+        {
+            ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elServicioDeSorteosRestricciones;
+            elServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+            
+            ViewBag.Opciones = elServicioDeSorteosRestricciones.ConsultarFechaDeunSorteo(id);
+            ViewBag.yaExisteElSorteoConRestriccion = elServicioDeSorteosRestricciones.ExisteElSorteoConRestriccion(id);
+          
+            return View();
+        }
+
+        // POST: SorteosRestricciones/Create
+        [HttpPost]
+        public ActionResult Create(GestorDeSorteosEnLinea.Model.SorteosRestricciones elSorteo)
+        {
+            try
+            {
+
+                ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elServicioDeSorteosRestricciones;
+                elServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+                
+
+                elSorteo.MontoMaximo = int.Parse(Request.Form["elMontoComprado"]);
+                elSorteo.Numero = int.Parse(Request.Form["elNumeroComprado"]);
+
+                elServicioDeSorteosRestricciones.CrearUnSorteoRestriccion(elSorteo);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: SorteosRestricciones/Edit/5
+        public ActionResult Editar(int id)
+        {
+
+            ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elServicioDeSorteosRestricciones;
+            elServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+
+            var elSorteoRestrccionConsultado = elServicioDeSorteosRestricciones.ConsultarUnSorteosConRestricciones(id);
+
+            ViewBag.Opciones = elServicioDeSorteosRestricciones.ConsultarFechaDeunSorteo(id);
+
+            return View(elSorteoRestrccionConsultado);
+        }
+
+        // POST: SorteosRestricciones/Edit/5
+        [HttpPost]
+        public ActionResult Editar(GestorDeSorteosEnLinea.Model.SorteosRestricciones elSorteo)
+        {
+            try
+            { 
+                
+
+                elSorteo.MontoMaximo = int.Parse(Request.Form["elMontoComprado"]);
+                elSorteo.Numero = int.Parse(Request.Form["elNumeroComprado"]);
+
+                ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elServicioDeSorteosRestricciones;
+                elServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+
+                elServicioDeSorteosRestricciones.EditarUnSorteoRestriccion(elSorteo);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+       
+    }
+}

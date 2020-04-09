@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="309cc462-9380-44cd-bb12-df5551f2a280" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50469/ServicioDeSorteos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioDeSorteos.disco" MetadataType="Disco" ID="f3e77082-1533-482d-a3f8-33116ef5c51b" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeSorteos.svc?disco" />
+    <MetadataFile FileName="ServicioDeSorteos.xsd" MetadataType="Schema" ID="399c07b3-882e-4bc6-b069-19d74ff03ac9" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeSorteos.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioDeSorteos.wsdl" MetadataType="Wsdl" ID="59335562-8496-4559-8795-fd09515f323a" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeSorteos.svc?wsdl" />
+    <MetadataFile FileName="ServicioDeSorteos1.xsd" MetadataType="Schema" ID="d9ed2166-9663-497e-bb29-95c1d912f343" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeSorteos.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioDeSorteos2.xsd" MetadataType="Schema" ID="3f22befe-a684-4e1f-beb0-12356649329c" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeSorteos.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

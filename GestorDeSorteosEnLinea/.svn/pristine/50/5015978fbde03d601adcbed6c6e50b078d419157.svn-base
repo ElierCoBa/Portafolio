@@ -1,0 +1,38 @@
+﻿@model IEnumerable<GestorDeSorteosEnLinea.Model.Sorteos>
+
+@{
+    ViewBag.Title = "Lista de los Sorteos";
+}
+
+<h2>Lista de sorteos</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+
+        <th>
+            @Html.DisplayName("Estado")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) 
+              
+            </td>
+        </tr>
+    }
+
+</table>

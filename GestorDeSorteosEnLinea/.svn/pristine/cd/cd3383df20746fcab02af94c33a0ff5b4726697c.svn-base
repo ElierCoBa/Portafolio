@@ -1,0 +1,116 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class SorteosRestriccionesController : Controller
+    {
+        // GET: SorteosRestricciones
+        public ActionResult Index()
+        {
+            List<GestorDeSorteosEnLinea.Model.Sorteos> laListaDeSorteos = new List<Model.Sorteos>();
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+            laListaDeSorteos = elGestorDeOperaciones.ListarSorteos();
+
+            
+
+            return View(laListaDeSorteos);
+            
+        }
+
+        // GET: SorteosRestricciones/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        // GET: SorteosRestricciones/Create
+        public ActionResult Create(int id)
+        {
+
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestoDeSorteos;
+            elGestoDeSorteos=new GestorDeSorteosEnLinea.Business.GestorDeOperaciones();
+            GestorDeSorteosEnLinea.Model.Sorteos elSorteo = elGestoDeSorteos.ConsultarUnSorteo(id);
+
+            List<SelectListItem> laListadeSorteos = new List<SelectListItem>();
+
+            laListadeSorteos.Add(new SelectListItem() { Text = elSorteo.Fecha.ToString(), Value = "1" });
+
+            ViewBag.Opciones = laListadeSorteos;
+
+
+            return View();
+        }
+
+        // POST: SorteosRestricciones/Create
+        [HttpPost]
+        public ActionResult Create(FormCollection collection)
+        {
+            try
+            {
+           
+
+
+
+
+
+
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: SorteosRestricciones/Edit/5
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        // POST: SorteosRestricciones/Edit/5
+        [HttpPost]
+        public ActionResult Edit(int id, FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add update logic here
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: SorteosRestricciones/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
+        }
+
+        // POST: SorteosRestricciones/Delete/5
+        [HttpPost]
+        public ActionResult Delete(int id, FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add delete logic here
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}

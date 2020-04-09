@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f71e7ed5-dd3c-4d70-b0f2-6ab02bda8615" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50469/ServicioDeResultadosDeSorteo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioDeResultadosDeSorteo.xsd" MetadataType="Schema" ID="a517a6a9-f8f3-4895-b798-9bf3cba41a5f" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeResultadosDeSorteo.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioDeResultadosDeSorteo1.xsd" MetadataType="Schema" ID="f07f3b69-f1d5-429f-8c3e-d0a9a0cd68d2" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeResultadosDeSorteo.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioDeResultadosDeSorteo2.xsd" MetadataType="Schema" ID="1ad02541-776b-4a12-841f-95a35a4fc108" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeResultadosDeSorteo.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioDeResultadosDeSorteo.wsdl" MetadataType="Wsdl" ID="56a6b7b3-b542-4f36-a822-af14c8e53034" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeResultadosDeSorteo.svc?wsdl" />
+    <MetadataFile FileName="ServicioDeResultadosDeSorteo.disco" MetadataType="Disco" ID="f38c5200-557a-49ea-aa22-a1e31fe53c13" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeResultadosDeSorteo.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

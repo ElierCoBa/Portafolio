@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class MisSorteosController : Controller
+    {
+  
+        public ActionResult Index()
+        {
+            List<GestorDeSorteosEnLinea.Model.SorteosDetalleVentas> laListaDeSorteos = new List<Model.SorteosDetalleVentas>();
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+            laListaDeSorteos = elGestorDeOperaciones.ListarSorteosDeUsuario();
+            return View(laListaDeSorteos);
+        }
+
+        public ActionResult Details(int id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            GestorDeSorteosEnLinea.Model.SorteosDetalleVentas elSorteoAConsultar = new Model.SorteosDetalleVentas();
+
+            elSorteoAConsultar = elGestorDeOperaciones.ConsultarUnSorteoDeUsuario(id);
+            return View(elSorteoAConsultar);
+        }
+        public ActionResult _DetallesSorteo(int id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            GestorDeSorteosEnLinea.Model.Sorteos elSorteoAConsultar = new Model.Sorteos();
+
+            elSorteoAConsultar = elGestorDeOperaciones.ConsultarUnSorteo(id);
+            return PartialView(elSorteoAConsultar);
+        }
+
+    }
+}

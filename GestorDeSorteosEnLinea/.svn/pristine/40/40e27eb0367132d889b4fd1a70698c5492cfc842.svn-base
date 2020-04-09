@@ -1,0 +1,50 @@
+﻿@model IEnumerable<GestorDeSorteosEnLinea.Model.SorteosRestricciones>
+
+@{
+    ViewBag.Title = "La lista de restricciones";
+    GestorDeSorteosEnLinea.ServicioDeSorteos.ServicioDeSorteosClient elServicioDelSorteo = new GestorDeSorteosEnLinea.ServicioDeSorteos.ServicioDeSorteosClient();
+    GestorDeSorteosEnLinea.Model.Sorteos elSorteo = new GestorDeSorteosEnLinea.Model.Sorteos();
+}
+
+<h2>La lista de restricciones</h2>
+
+@ViewData["FechaDeSorteo"]
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Fecha")
+        </th>
+        <th>
+            @Html.DisplayName("Número")
+        </th>
+        <th>
+            @Html.DisplayName("Monto máximo permitido por venta")
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @{elSorteo = elServicioDelSorteo.ConsultarUnSorteo(item.IdSorteos); }
+            @Html.Encode(elSorteo.Fecha.ToShortDateString())
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Numero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MontoMaximo)
+        </td>
+
+
+    </tr>
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Regresar", "Index")
+</div>

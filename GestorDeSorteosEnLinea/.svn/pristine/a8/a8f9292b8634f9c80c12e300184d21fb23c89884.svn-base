@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class MisSorteosController : Controller
+    {
+  
+        public ActionResult Index()
+        {
+           
+            ServicioDeMisSorteos.ServicioDeMisSorteosClient elClienteDeServiciosDeMisSorteos = new ServicioDeMisSorteos.ServicioDeMisSorteosClient();
+
+            var laListaDeSorteos = elClienteDeServiciosDeMisSorteos.ListarSorteosDeUsuario();
+            return View(laListaDeSorteos);
+        }
+     
+        public ActionResult _ElDetalleDeLaFechaDelSorteo()
+        {
+
+            ServicioDeMisSorteos.ServicioDeMisSorteosClient elClienteDeServiciosDeMisSorteos = new ServicioDeMisSorteos.ServicioDeMisSorteosClient();
+
+            var laListaDeSorteos = elClienteDeServiciosDeMisSorteos.ListarSorteos();
+            return PartialView(laListaDeSorteos);
+        }
+        public ActionResult Details(int id)
+        {
+            ServicioDeMisSorteos.ServicioDeMisSorteosClient elClienteDeServiciosDeMisSorteos = new ServicioDeMisSorteos.ServicioDeMisSorteosClient();
+            var elSorteoAConsultar = elClienteDeServiciosDeMisSorteos.ConsultarUnSorteoDeUsuario(id);
+            return View(elSorteoAConsultar);
+        }
+        public ActionResult _DetallesSorteo(int id)
+        {
+            ServicioDeMisSorteos.ServicioDeMisSorteosClient elClienteDeServiciosDeMisSorteos = new ServicioDeMisSorteos.ServicioDeMisSorteosClient();
+
+           var elSorteoAConsultar = elClienteDeServiciosDeMisSorteos.ConsultarUnSorteo(id);
+            return PartialView(elSorteoAConsultar);
+        }
+
+    }
+}

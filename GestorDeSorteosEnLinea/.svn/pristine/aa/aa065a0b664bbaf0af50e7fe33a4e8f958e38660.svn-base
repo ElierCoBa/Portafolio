@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d4f3f84c-34dd-4ec4-ba92-0ca67f361250" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50469/ServicioDeCompraDeNumeros.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioDeCompraDeNumeros.xsd" MetadataType="Schema" ID="23688314-f46b-465d-ac4f-6adb97d2e94d" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeCompraDeNumeros.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioDeCompraDeNumeros1.xsd" MetadataType="Schema" ID="a0c257cd-055d-4dcf-bc91-51321ad50524" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeCompraDeNumeros.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioDeCompraDeNumeros2.xsd" MetadataType="Schema" ID="44001c97-1887-4dc1-889e-f9eb5864eca7" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeCompraDeNumeros.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioDeCompraDeNumeros.disco" MetadataType="Disco" ID="c06bb5a9-b6b9-478a-8f3d-d6378061e209" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeCompraDeNumeros.svc?disco" />
+    <MetadataFile FileName="ServicioDeCompraDeNumeros.wsdl" MetadataType="Wsdl" ID="c1316a6e-9903-4da6-908d-f84c6b1a49b1" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeCompraDeNumeros.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

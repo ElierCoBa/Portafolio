@@ -1,0 +1,120 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class SorteosController : Controller
+    {
+        // GET: Sorteos
+        public ActionResult Index()
+        {
+
+            List<GestorDeSorteosEnLinea.Model.Sorteos> laListaDeSorteos = new List<Model.Sorteos>();
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+            laListaDeSorteos = elGestorDeOperaciones.ListarSorteos();
+            return View(laListaDeSorteos);
+        }
+
+        // GET: Sorteos/Details/5
+        public ActionResult Details(int id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            GestorDeSorteosEnLinea.Model.Sorteos elSorteoAConsultar = new Model.Sorteos();
+
+            elSorteoAConsultar = elGestorDeOperaciones.ConsultarUnSorteo(id);
+            return View(elSorteoAConsultar);
+        }
+
+        // GET: Sorteos/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Sorteos/Create
+        [HttpPost]
+        public ActionResult Create(GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico)
+        {
+            try
+            {
+                GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+                elGestorDeOperaciones = new Business.GestorDeOperaciones();
+                elGestorDeOperaciones.AgregarSorteos(elSorteo);
+                elGestorDeOperaciones.AgregarSorteosHistoricos(elSorteoHistorico, elSorteo.Id);
+             
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+  
+                return View();
+            }
+        }
+
+        // GET: Sorteos/Delete/5
+        public ActionResult DesactivarUnSorteo(int Id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            var elSorteoConsultado = elGestorDeOperaciones.ConsultarUnSorteo(Id);
+
+            return View(elSorteoConsultado);
+        }
+
+        // POST: Sorteos/Delete/5
+        [HttpPost]
+        public ActionResult DesactivarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo)
+        {
+            try
+            {
+                GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+                elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+                elGestorDeOperaciones.DesactivarUnSorteo(elSorteo);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: Sorteos/Delete/5
+        public ActionResult ActivarUnSorteo(int Id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            var elSorteoConsultado = elGestorDeOperaciones.ConsultarUnSorteo(Id);
+
+            return View(elSorteoConsultado);
+        }
+
+        // POST: Sorteos/Delete/5
+        [HttpPost]
+        public ActionResult ActivarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico)
+        {
+            try
+            {
+                GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+                elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+                elGestorDeOperaciones.ActivarUnSorteo(elSorteo);
+                elGestorDeOperaciones.ActivarUnSorteoHistorico(elSorteoHistorico, elSorteo.Id);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
+namespace GestorDeSorteosEnLinea.Model
+{
+    public class Sorteos
+    {
+    
+        public int Id { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime Fecha { get; set; }
+        public Estados Estado { get; set; }
+
+     
+
+    }
+}

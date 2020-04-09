@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.Entity;
+
+namespace GestorDeSorteosEnLinea.DataAccess
+{
+    public class Context:DbContext
+    {
+
+		protected override void OnModelCreating(DbModelBuilder modelBuilder)
+		{
+            modelBuilder.Entity<GestorDeSorteosEnLinea.Model.AspNetUsers>().ToTable("AspNetUsers");
+            modelBuilder.Entity<GestorDeSorteosEnLinea.Model.Sorteos>().ToTable("Sorteos");
+            modelBuilder.Entity<GestorDeSorteosEnLinea.Model.SorteosRestricciones>().ToTable("SorteosRestricciones");
+            modelBuilder.Entity<GestorDeSorteosEnLinea.Model.SorteosHistorico>().ToTable("SorteosHistorico");
+            modelBuilder.Entity<GestorDeSorteosEnLinea.Model.SorteosDetalleVentas>().ToTable("SorteosDetalleVentas");
+        }
+      
+        public DbSet<GestorDeSorteosEnLinea.Model.AspNetUsers> AspNetUsers { get; set; }
+        public DbSet<GestorDeSorteosEnLinea.Model.Sorteos> Sorteos { get; set; }
+        public DbSet<GestorDeSorteosEnLinea.Model.SorteosRestricciones> SorteosRestricciones { get; set; }
+        public DbSet<GestorDeSorteosEnLinea.Model.SorteosHistorico> SorteosHistorico { get; set; }
+        public DbSet<GestorDeSorteosEnLinea.Model.SorteosDetalleVentas> SorteosDetalleVentas { get; set; }
+    }
+}

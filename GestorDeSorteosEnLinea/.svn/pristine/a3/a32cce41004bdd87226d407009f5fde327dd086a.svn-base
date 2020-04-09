@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class ResultadosDeSorteoController : Controller
+    {
+        public ActionResult Index()
+        {
+
+            ServicioDeResultadosDeSorteo.ServicioDeResultadosDeSorteoClient elClienteDeResulados = new ServicioDeResultadosDeSorteo.ServicioDeResultadosDeSorteoClient();
+
+            var laListaDeSorteos = elClienteDeResulados.ListarResultados();
+            return View(laListaDeSorteos);
+        }
+
+        public ActionResult Details(Model.SorteosResultados elResultado)
+        {
+
+            ServicioDeResultadosDeSorteo.ServicioDeResultadosDeSorteoClient elClienteDeResulados = new ServicioDeResultadosDeSorteo.ServicioDeResultadosDeSorteoClient();
+        
+            var elSorteoAConsultar = elClienteDeResulados.ConsultarUnResultado(elResultado.Id);
+            return View(elSorteoAConsultar);
+        }
+
+        public ActionResult Create(int id)
+        {
+            ServicioDeSorteos.ServicioDeSorteosClient elCliente = new ServicioDeSorteos.ServicioDeSorteosClient();
+            ViewData["laFechaDelSorteo"] = elCliente.ConsultarUnSorteo(id).Fecha.ToShortDateString();
+            return View();
+        }
+
+
+        [HttpPost]
+        public ActionResult Create(GestorDeSorteosEnLinea.Model.SorteosResultados elResultado, GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico)
+        {
+        
+            
+
+                try
+                {
+
+                    ServicioDeResultadosDeSorteo.ServicioDeResultadosDeSorteoClient elClienteDeResulados = new ServicioDeResultadosDeSorteo.ServicioDeResultadosDeSorteoClient();
+                    elSorteo.Estado = Model.Estados.Cerrado;
+                    elResultado.IdSorteos = elSorteo.Id;
+                    elResultado.Id = 0;
+                    elSorteoHistorico.TipoDeModificacion = Model.TipoDeModificacion.Insercion;
+                    elClienteDeResulados.AgregarSorteos(elResultado, elSorteoHistorico, elSorteo);
+                    return RedirectToAction("Details");
+                }
+                catch
+                {
+
+                    return View();
+                }
+        }
+          
+    }
+}
+

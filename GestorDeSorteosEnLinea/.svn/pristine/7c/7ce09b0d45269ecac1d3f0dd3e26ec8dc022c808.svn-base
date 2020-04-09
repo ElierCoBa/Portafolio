@@ -1,0 +1,59 @@
+﻿@model GestorDeSorteosEnLinea.Model.SorteosResultados
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Detalles</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.Label("Total vendido")
+        </dt>
+
+        <dd>
+
+        </dd>
+
+        <dt>
+            @Html.Label("Total pagado en premios")
+        </dt>
+
+        <dd>
+
+        </dd>
+
+        <dt>
+            @Html.Label("Total pagado al primer número en premios")
+        </dt>
+
+        <dd>
+
+        </dd>
+
+        <dt>
+            @Html.Label("Total pagado al segundo número en premios")
+        </dt>
+
+        <dd>
+
+        </dd>
+
+        <dt>
+            @Html.Label("Total pagado al tercer número en premios")
+        </dt>
+
+        <dd>
+
+        </dd>
+
+    </dl>
+</div>
+<p>
+
+    @Html.ActionLink("Regresar", "Index")
+</p>

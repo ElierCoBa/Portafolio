@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
+namespace GestorDeSorteosEnLinea.Model
+{
+    public class SorteosHistorico : Sorteos
+    {
+      
+        public int Id { get; set; }
+        [Required]
+        public TipoDeModificacion TipoDeModificacion { get; set; }
+        [Required]
+        public DateTime? FechaDeModificacion { get; set; }
+        [Required]
+        public string Id_AspNetUser { get; set; }
+        [Required]
+        public string DescripcionDeLaModificacion { get; set; }
+        [Required]
+        public int IdSorteo { get; set; }
+
+    }
+
+    
+}

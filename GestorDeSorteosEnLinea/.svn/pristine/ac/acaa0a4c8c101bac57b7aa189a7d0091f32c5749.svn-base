@@ -1,0 +1,45 @@
+﻿@model GestorDeSorteosEnLinea.Model.SorteosDetalleVentas
+
+@{
+    ViewBag.Title = "Details";
+    GestorDeSorteosEnLinea.SI.ServicioDeSorteos elServicioDelSorteo = new GestorDeSorteosEnLinea.SI.ServicioDeSorteos();
+}
+
+<h2>Detalles de los sorteos del usuario</h2>
+
+<div>
+  
+    <hr />
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayName("Fecha")
+        </dt>
+
+        <dd>
+            @Html.Label((string)ViewBag.Opciones)
+        </dd>
+        <dt>
+            @Html.DisplayName("Número")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Regresar", "Index")
+</p>

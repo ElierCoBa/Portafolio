@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
+namespace GestorDeSorteosEnLinea.Model
+{
+    public class SorteosDetalleVentas 
+    {
+        public int Id { get; set; }
+        [Required]
+        public int IdSorteos { get; set; }
+        [Required(ErrorMessage = "El número es requerido")]
+        [Range(01,99, ErrorMessage ="El rango de los números es de 01 a 99")]
+        [RegularExpression("^\\d+$", ErrorMessage = "No se admiten letras")]
+        public int Numero { get; set; }
+        [Required(ErrorMessage ="El monto es requerido")]
+        [Range(1, short.MaxValue, ErrorMessage = "El monto que se desea comprar debe ser mayor a cero")]
+        [RegularExpression("^\\d+$", ErrorMessage = "El monto es un valor númerico")]
+        public Decimal Monto { get; set; }
+        [Required]
+        public string Id_AspNetUser { get; set; }
+    }
+
+   
+}

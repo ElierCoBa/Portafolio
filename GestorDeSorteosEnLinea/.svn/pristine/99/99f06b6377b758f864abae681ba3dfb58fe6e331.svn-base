@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+
+namespace GestorDeSorteosEnLinea.SI
+{
+
+    [ServiceContract]
+    public interface IServicioDeMisSorteos
+    {
+        [OperationContract]
+        List<Model.SorteosDetalleVentas> ListarSorteosDeUsuario();
+        [OperationContract]
+        Model.SorteosDetalleVentas ConsultarUnSorteoDeUsuario(int id);
+        [OperationContract]
+        List<Model.Sorteos> ListarSorteos();
+        [OperationContract]
+        Model.Sorteos ConsultarUnSorteo(int id);
+    }
+}

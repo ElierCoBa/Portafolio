@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d2759a72-6a84-4518-b6cb-2a009e4a463d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50469/ServicioDeMisSorteos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioDeMisSorteos.disco" MetadataType="Disco" ID="71d28610-085a-4ab3-a99e-f9adc3982382" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeMisSorteos.svc?disco" />
+    <MetadataFile FileName="ServicioDeMisSorteos.wsdl" MetadataType="Wsdl" ID="6bdb315f-a0da-46f9-806a-b9c23ca82654" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeMisSorteos.svc?wsdl" />
+    <MetadataFile FileName="ServicioDeMisSorteos.xsd" MetadataType="Schema" ID="218fffd4-a83f-49cc-81b8-1318d26a4369" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioDeMisSorteos1.xsd" MetadataType="Schema" ID="2572b2da-b765-4a5d-90d7-054a74e0c848" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioDeMisSorteos2.xsd" MetadataType="Schema" ID="fab3128c-946c-4828-92cc-4fcba5c7c4ba" SourceId="1" SourceUrl="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,155 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace GestorDeSorteosEnLinea.Business
+{
+    public class GestorDeOperaciones
+    {
+        
+
+        public void AgregarUsuario(GestorDeSorteosEnLinea.Model.AspNetUsers elUsuario)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            lasOperaciones.AgregarUsuario(elUsuario);
+
+        }
+        public GestorDeSorteosEnLinea.Model.Sorteos ConsultarUnSorteo(int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ConsultarUnSorteo(Id);
+
+        }
+        public void AgregarSorteos(GestorDeSorteosEnLinea.Model.Sorteos elSorteo)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteo.Estado = Model.Estados.Activo;
+            lasOperaciones.AgregarSorteo(elSorteo);
+
+        }
+        public List<GestorDeSorteosEnLinea.Model.Sorteos> ListarSorteos()
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ListarSorteos();
+
+        }
+        public List<GestorDeSorteosEnLinea.Model.SorteosHistorico> ListarSorteosHistoricos(int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ListarSorteosHistoricos(Id);
+
+        }
+     
+        public List<GestorDeSorteosEnLinea.Model.Sorteos> ListarSorteosActivos()
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ListarSorteosActivos();
+
+        }
+        public List<GestorDeSorteosEnLinea.Model.Sorteos> ListarSorteosActivosVigentes()
+        {
+           
+
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+           
+
+            return lasOperaciones.ListarSorteosActivosVigentes();
+
+        }
+
+        public GestorDeSorteosEnLinea.Model.SorteosHistorico ConsultarUnSorteoHistorico(int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+  
+            return lasOperaciones.ConsultarUnSorteoHistorico(Id);
+
+        }
+        public void AgregarSorteosHistoricos(GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, int IdSorteo)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteoHistorico.IdSorteo = IdSorteo;
+            elSorteoHistorico.FechaDeModificacion = DateTime.Now;
+            elSorteoHistorico.DescripcionDeLaModificacion = "Registro de sorteo";
+            elSorteoHistorico.TipoDeModificacion = Model.TipoDeModificacion.Insercion;
+            elSorteoHistorico.Id_AspNetUser = "CoBa";
+            lasOperaciones.AgregarSorteoHistorico(elSorteoHistorico);
+
+
+        }
+      
+        public void ActivarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, string laDescripcionDeLaModificacion)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            elSorteo.Estado = Model.Estados.Activo;
+            elSorteoHistorico.DescripcionDeLaModificacion = laDescripcionDeLaModificacion;
+            elSorteoHistorico.FechaDeModificacion = DateTime.Now;
+            elSorteoHistorico.TipoDeModificacion = Model.TipoDeModificacion.Activacion;
+            elSorteoHistorico.Id = 0;
+            elSorteoHistorico.Id_AspNetUser = "CoBa";
+            elSorteoHistorico.IdSorteo = elSorteo.Id;
+            lasOperaciones.CambiarDeEstadoUnSorteo(elSorteo,elSorteoHistorico);
+
+        }
+        public void InactivarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, string laDescripcionDeLaModificacion)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            elSorteo.Estado = Model.Estados.Inactivo;
+            elSorteoHistorico.DescripcionDeLaModificacion = laDescripcionDeLaModificacion;
+            elSorteoHistorico.FechaDeModificacion = DateTime.Now;
+            elSorteoHistorico.TipoDeModificacion = Model.TipoDeModificacion.Inactivacion;
+            elSorteoHistorico.Id = 0;
+            elSorteoHistorico.Id_AspNetUser = "E12";
+            elSorteoHistorico.IdSorteo = elSorteo.Id;
+            lasOperaciones.CambiarDeEstadoUnSorteo(elSorteo, elSorteoHistorico);
+
+        }
+
+        public void AgregarDetalleVenta(GestorDeSorteosEnLinea.Model.SorteosDetalleVentas elDetalleDeLaVenta)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elDetalleDeLaVenta.Id = 0;
+            elDetalleDeLaVenta.Id_AspNetUser = "E12";
+
+            lasOperaciones.AgregarDetalleVenta(elDetalleDeLaVenta);
+
+        }
+        public List<GestorDeSorteosEnLinea.Model.SorteosDetalleVentas> ListarSorteosDeUsuario()
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ListarSorteoDeUsuario();
+
+        }
+        public GestorDeSorteosEnLinea.Model.SorteosDetalleVentas ConsultarUnSorteoDeUsuario(int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ConsultarUnSorteoDeUsuario(Id);
+
+        }
+    }
+}

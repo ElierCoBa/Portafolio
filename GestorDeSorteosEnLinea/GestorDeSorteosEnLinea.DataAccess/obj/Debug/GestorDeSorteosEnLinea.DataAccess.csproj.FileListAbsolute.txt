@@ -1,0 +1,76 @@
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csprojAssemblyReference.cache
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CopyComplete
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Jonathan\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CopyComplete
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\Desktop\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CopyComplete
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.csproj.CopyComplete
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.DataAccess\obj\Debug\GestorDeSorteosEnLinea.DataAccess.pdb

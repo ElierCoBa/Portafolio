@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicioDeMisSorteos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicioDeMisSorteos_ListarSorteosDeUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosDeUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ListarSorteosDeUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosDeUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ConsultarUnSorteoDeUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteoDeUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ConsultarUnSorteoDeUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteoDeUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ListarSorteos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ListarSorteos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarSorteosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ConsultarUnSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ConsultarUnSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarUnSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ObtenerElId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerElId" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ObtenerElId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerElIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ConsultarResultadoDeSorteo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarResultadoDeSorteo" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ConsultarResultadoDeSorteo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarResultadoDeSorteoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ObtenerMontoGanado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMontoGanado" />
+  </wsdl:message>
+  <wsdl:message name="IServicioDeMisSorteos_ObtenerMontoGanado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerMontoGanadoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioDeMisSorteos">
+    <wsdl:operation name="ListarSorteosDeUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ListarSorteosDeUsuario" message="tns:IServicioDeMisSorteos_ListarSorteosDeUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ListarSorteosDeUsuarioResponse" message="tns:IServicioDeMisSorteos_ListarSorteosDeUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteoDeUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ConsultarUnSorteoDeUsuario" message="tns:IServicioDeMisSorteos_ConsultarUnSorteoDeUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ConsultarUnSorteoDeUsuarioResponse" message="tns:IServicioDeMisSorteos_ConsultarUnSorteoDeUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ListarSorteos" message="tns:IServicioDeMisSorteos_ListarSorteos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ListarSorteosResponse" message="tns:IServicioDeMisSorteos_ListarSorteos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ConsultarUnSorteo" message="tns:IServicioDeMisSorteos_ConsultarUnSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ConsultarUnSorteoResponse" message="tns:IServicioDeMisSorteos_ConsultarUnSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerElId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ObtenerElId" message="tns:IServicioDeMisSorteos_ObtenerElId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ObtenerElIdResponse" message="tns:IServicioDeMisSorteos_ObtenerElId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarResultadoDeSorteo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ConsultarResultadoDeSorteo" message="tns:IServicioDeMisSorteos_ConsultarResultadoDeSorteo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ConsultarResultadoDeSorteoResponse" message="tns:IServicioDeMisSorteos_ConsultarResultadoDeSorteo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMontoGanado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ObtenerMontoGanado" message="tns:IServicioDeMisSorteos_ObtenerMontoGanado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioDeMisSorteos/ObtenerMontoGanadoResponse" message="tns:IServicioDeMisSorteos_ObtenerMontoGanado_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServicioDeMisSorteos" type="tns:IServicioDeMisSorteos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListarSorteosDeUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ListarSorteosDeUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteoDeUsuario">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ConsultarUnSorteoDeUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSorteos">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ListarSorteos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarUnSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ConsultarUnSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerElId">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ObtenerElId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarResultadoDeSorteo">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ConsultarResultadoDeSorteo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerMontoGanado">
+      <soap:operation soapAction="http://tempuri.org/IServicioDeMisSorteos/ObtenerMontoGanado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioDeMisSorteos">
+    <wsdl:port name="BasicHttpBinding_IServicioDeMisSorteos" binding="tns:BasicHttpBinding_IServicioDeMisSorteos">
+      <soap:address location="http://localhost:50469/ServicioDeMisSorteos.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

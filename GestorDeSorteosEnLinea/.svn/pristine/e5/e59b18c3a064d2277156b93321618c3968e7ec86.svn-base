@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" />
+  <xs:element name="ListarSorteosDeUsuario">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarSorteosDeUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="ListarSorteosDeUsuarioResult" nillable="true" type="q1:ArrayOfSorteosDetalleVentas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarUnSorteoDeUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarUnSorteoDeUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="ConsultarUnSorteoDeUsuarioResult" nillable="true" type="q2:SorteosDetalleVentas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarSorteos">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarSorteosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="ListarSorteosResult" nillable="true" type="q3:ArrayOfSorteos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarUnSorteo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarUnSorteoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="ConsultarUnSorteoResult" nillable="true" type="q4:Sorteos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerElId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="laListaDeDetalles" nillable="true" type="q5:ArrayOfSorteosDetalleVentas" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="elDetalleDelSorteo" nillable="true" type="q6:SorteosDetalleVentas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerElIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerElIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarResultadoDeSorteo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultarResultadoDeSorteoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="ConsultarResultadoDeSorteoResult" nillable="true" type="q7:SorteosResultados" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerMontoGanado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="elDetalleDeLaVenta" nillable="true" type="q8:SorteosDetalleVentas" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" minOccurs="0" name="elSorteo" nillable="true" type="q9:Sorteos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerMontoGanadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerMontoGanadoResult" type="xs:float" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

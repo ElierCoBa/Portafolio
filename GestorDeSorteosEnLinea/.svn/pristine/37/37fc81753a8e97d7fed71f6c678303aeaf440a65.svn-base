@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class CompraDeNumerosController : Controller
+    {
+       
+        public ActionResult Index()
+        {
+            List<GestorDeSorteosEnLinea.Model.Sorteos> laListaDeSorteos = new List<Model.Sorteos>();
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+            laListaDeSorteos = elGestorDeOperaciones.ListarSorteosActivosVigentes();
+            return View(laListaDeSorteos);
+        }
+  
+        public ActionResult SeleccionarUnSorteo(int id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            var elSorteoConsultado = elGestorDeOperaciones.ConsultarUnSorteo(id);
+
+            return View(elSorteoConsultado);
+        }
+        //[HttpPost]
+        //public ActionResult SeleccionarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosDetalleVentas elDetalleDeLaVenta)
+        //{
+        //    try
+        //    {
+        //        int elNumeroComprado = 0;
+        //        Decimal elMontoDelNumeroComprado = 0;
+        //        int elIdDelSorteo = elSorteo.Id;
+        //        GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+        //        elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+
+
+        //        elGestorDeOperaciones.AgregarDetalleVenta(elDetalleDeLaVenta, elNumeroComprado, elMontoDelNumeroComprado, elIdDelSorteo);
+
+               
+
+
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+
+        //        return View();
+        //    }
+        //}
+
+        public ActionResult ListaDeMisSorteos()
+        {
+            List<GestorDeSorteosEnLinea.Model.SorteosDetalleVentas> laListaDeSorteos = new List<Model.SorteosDetalleVentas>();
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+            laListaDeSorteos = elGestorDeOperaciones.ListarSorteosDeUsuario();
+            return View(laListaDeSorteos);
+        }
+
+        // GET: Sorteos/Create
+        public ActionResult _Create()
+        {
+            return PartialView();
+        }
+
+        // POST: Sorteos/Create
+        [HttpPost]
+        public ActionResult _Create(GestorDeSorteosEnLinea.Model.SorteosDetalleVentas elDetalleDeLaVenta)
+        {
+            try
+            {
+                int elIdDelSorteo = 0;
+                GestorDeSorteosEnLinea.Model.Sorteos elSorteo = new Model.Sorteos();
+                GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+                elGestorDeOperaciones = new Business.GestorDeOperaciones();
+                elIdDelSorteo = elGestorDeOperaciones.ConsultarUnSorteo(elDetalleDeLaVenta.Id).Id;
+                elDetalleDeLaVenta.IdSorteos = elIdDelSorteo;
+                elGestorDeOperaciones.AgregarDetalleVenta(elDetalleDeLaVenta);
+
+         
+
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+
+                return PartialView();
+            }
+        }
+
+        public ActionResult Details(int id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            GestorDeSorteosEnLinea.Model.Sorteos elSorteoAConsultar = new Model.Sorteos();
+
+            elSorteoAConsultar = elGestorDeOperaciones.ConsultarUnSorteo(id);
+            return View(elSorteoAConsultar);
+        }
+    }
+}

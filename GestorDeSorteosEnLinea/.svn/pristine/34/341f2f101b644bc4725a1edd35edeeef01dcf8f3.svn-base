@@ -1,0 +1,24 @@
+﻿@model GestorDeSorteosEnLinea.Model.Sorteos
+
+<div>
+    <h4>Sorteos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+    </dl>
+    @{ 
+
+        Html.RenderPartial("_Create", "CompraDeNumeros");
+    }
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

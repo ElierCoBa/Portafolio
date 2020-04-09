@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GestorDeSorteosEnLinea.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50469/ServicioDeMisSorteos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfSorteosDetalleVentas">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SorteosDetalleVentas" nillable="true" type="tns:SorteosDetalleVentas" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSorteosDetalleVentas" nillable="true" type="tns:ArrayOfSorteosDetalleVentas" />
+  <xs:complexType name="SorteosDetalleVentas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="IdSorteos" type="xs:int" />
+      <xs:element minOccurs="0" name="Id_AspNetUser" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Monto" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Numero" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SorteosDetalleVentas" nillable="true" type="tns:SorteosDetalleVentas" />
+  <xs:complexType name="ArrayOfSorteos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Sorteos" nillable="true" type="tns:Sorteos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSorteos" nillable="true" type="tns:ArrayOfSorteos" />
+  <xs:complexType name="Sorteos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Estado" type="tns:Estados" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Sorteos" nillable="true" type="tns:Sorteos" />
+  <xs:simpleType name="Estados">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Activo">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Inactivo">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Estados" nillable="true" type="tns:Estados" />
+</xs:schema>

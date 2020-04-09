@@ -1,0 +1,8 @@
+﻿@model GestorDeSorteosEnLinea.Model.Sorteos
+
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+
+ 

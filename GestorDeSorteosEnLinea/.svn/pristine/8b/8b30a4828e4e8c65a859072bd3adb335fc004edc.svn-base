@@ -1,0 +1,153 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GestorDeSorteosEnLinea.DataAccess
+{
+	public class Operaciones
+    {
+
+      
+        public Model.Sorteos ConsultarUnSorteo(int Id)
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = laBaseDeDatos.Sorteos.Find(Id);
+
+            return elResultado;
+        }
+
+        public Model.SorteosHistorico ConsultarUnSorteoHistorico(int Id)
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = laBaseDeDatos.SorteosHistorico.Find(Id);
+
+            return elResultado;
+
+      
+        }
+
+        public Model.SorteosDetalleVentas ConsultarUnSorteoDeUsuario(int Id)
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = laBaseDeDatos.SorteosDetalleVentas.Find(Id);
+
+            return elResultado;
+
+
+        }
+
+        public void AgregarUsuario(GestorDeSorteosEnLinea.Model.AspNetUsers item)
+		{
+            var laBaseDeDatos = new Context();
+            laBaseDeDatos.Usuarios.Add(item);
+            laBaseDeDatos.Entry(item).State = System.Data.Entity.EntityState.Added;
+            laBaseDeDatos.SaveChanges();
+
+        }
+        public void AgregarSorteo(GestorDeSorteosEnLinea.Model.Sorteos item)
+        {
+            var laBaseDeDatos = new Context();
+            laBaseDeDatos.Sorteos.Add(item);
+            laBaseDeDatos.Entry(item).State = System.Data.Entity.EntityState.Added;
+            laBaseDeDatos.SaveChanges();
+
+        }
+
+        public List<Model.Sorteos> ListarSorteos()
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = from elSorteo in laBaseDeDatos.Sorteos
+                           
+                              select elSorteo;
+
+            return elResultado.ToList();
+
+        }
+
+        public List<Model.Sorteos> ListarSorteosActivos()
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = from elSorteo in laBaseDeDatos.Sorteos 
+                              where elSorteo.Estado == Model.Estados.Activo
+
+                              select elSorteo;
+
+            return elResultado.ToList();
+
+        }
+        public List<Model.SorteosDetalleVentas> ListarSorteoDeUsuario()
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = from elSorteo in laBaseDeDatos.SorteosDetalleVentas
+                              where elSorteo.Id_AspNetUser == "CoBa"
+
+                              select elSorteo;
+
+            return elResultado.ToList();
+
+        }
+        public List<Model.Sorteos> ListarSorteosActivosVigentes()
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = from elSorteo in laBaseDeDatos.Sorteos
+                              where elSorteo.Fecha >= DateTime.Now  where elSorteo.Estado == Model.Estados.Activo
+
+                              select elSorteo;
+
+            return elResultado.ToList();
+
+        }
+        public List<Model.SorteosHistorico> ListarSorteosHistoricos(int Id)
+        {
+            var laBaseDeDatos = new Context();
+            var elResultado = from elSorteo in laBaseDeDatos.SorteosHistorico
+                              where elSorteo.IdSorteo == Id
+
+                              select elSorteo;
+
+            return elResultado.ToList();
+
+        }
+
+        public void AgregarSorteoHistorico(GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico)
+        {
+            var laBaseDeDatos = new Context();
+            laBaseDeDatos.SorteosHistorico.Add(elSorteoHistorico);
+            laBaseDeDatos.Entry(elSorteoHistorico).State = System.Data.Entity.EntityState.Added;
+            laBaseDeDatos.SaveChanges();
+
+        }
+        public void AgregarSorteoHistoricoModificado(GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico)
+        {
+            var laBaseDeDatos = new Context();
+            laBaseDeDatos.SorteosHistorico.Add(elSorteoHistorico);
+            laBaseDeDatos.Entry(elSorteoHistorico).State = System.Data.Entity.EntityState.Added;
+            laBaseDeDatos.SaveChanges();
+
+        }
+
+        public void CambiarDeEstadoUnSorteo(Model.Sorteos elSorteo, Model.SorteosHistorico elSorteoHistorico)
+        {
+            var elSorteoObtenido = ConsultarUnSorteo(elSorteo.Id);
+
+            var laBaseDeDatos = new Context();
+            elSorteoObtenido.Estado = elSorteo.Estado;
+         
+            laBaseDeDatos.Entry(elSorteoObtenido).State = System.Data.Entity.EntityState.Modified;
+            AgregarSorteoHistoricoModificado(elSorteoHistorico);
+            laBaseDeDatos.SaveChanges();
+
+        }
+
+        public void AgregarDetalleVenta(GestorDeSorteosEnLinea.Model.SorteosDetalleVentas elDetalleDeLaVenta)
+        {
+            var laBaseDeDatos = new Context();
+            laBaseDeDatos.SorteosDetalleVentas.Add(elDetalleDeLaVenta);
+            laBaseDeDatos.Entry(elDetalleDeLaVenta).State = System.Data.Entity.EntityState.Added;
+            laBaseDeDatos.SaveChanges();
+
+        }
+    }
+}

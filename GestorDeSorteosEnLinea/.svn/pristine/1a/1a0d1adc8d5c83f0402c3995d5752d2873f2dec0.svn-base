@@ -1,0 +1,159 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace GestorDeSorteosEnLinea.Controllers
+{
+    public class CompraDeNumerosController : Controller
+    {
+
+        public ActionResult Index()
+        {
+
+           ServicioDeCompraDeNumeros.ServicioDeCompraDeNumerosClient elClienteDeServicioDeCompraDeNumeros = new ServicioDeCompraDeNumeros.ServicioDeCompraDeNumerosClient();
+           var laListaDeSorteos = elClienteDeServicioDeCompraDeNumeros.ListarSorteosActivosVigentes();
+           return View(laListaDeSorteos);
+        }
+
+        public ActionResult SeleccionarUnSorteo(int id)
+        {
+            ServicioDeCompraDeNumeros.ServicioDeCompraDeNumerosClient elClienteDeServicioDeCompraDeNumeros = new ServicioDeCompraDeNumeros.ServicioDeCompraDeNumerosClient();
+            var elSorteoConsultado = elClienteDeServicioDeCompraDeNumeros.ConsultarUnSorteo(id);
+
+            ViewBag.Fecha = elSorteoConsultado.Fecha.ToString("dd/MM/yyyy");
+            ViewBag.Indicador = true;
+           
+
+            return View(elSorteoConsultado);
+        }
+        [HttpPost]
+        public ActionResult SeleccionarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo, GestorDeSorteosEnLinea.Model.SorteosDetalleVentas elDetalleDeLaVenta)
+        {
+            int elNumeroComprado = 0;
+            Decimal elMontoDelNumeroComprado = 0;
+            string elMontoDelNumeroAComprar = "";
+            string elNumeroAComprar = "";
+
+            elMontoDelNumeroAComprar = Request.Form["elMontoDelNumeroComprado"];
+            elNumeroAComprar = Request.Form["elNumeroComprado"];
+
+            if (elMontoDelNumeroAComprar != "" && elNumeroAComprar != "")
+            {
+                if (elMontoDelNumeroAComprar != "")
+                {
+                    if (elNumeroAComprar != "")
+                    {
+
+                        elMontoDelNumeroComprado = int.Parse(elMontoDelNumeroAComprar);
+                        elNumeroComprado = int.Parse(elNumeroAComprar);
+
+                        if (elNumeroComprado > 0 && elNumeroComprado <= 99)
+                        {
+                            if (elMontoDelNumeroComprado > 0)
+                            {
+
+
+                                try
+                                {
+
+
+                                    DateTime? laFechaDelSorteo;
+                                    int elIdDelSorteo = elSorteo.Id;
+                                    ServicioDeCompraDeNumeros.ServicioDeCompraDeNumerosClient elClienteDeServicioDeCompraDeNumeros = new ServicioDeCompraDeNumeros.ServicioDeCompraDeNumerosClient();
+                                    ServicioDeSorteos.ServicioDeSorteosClient elClienteDeSorteos = new ServicioDeSorteos.ServicioDeSorteosClient();
+
+
+                                    if (elClienteDeServicioDeCompraDeNumeros.PoseeRestriccionElSorteoSeleccionado(elNumeroComprado, elIdDelSorteo) == null)
+                                    {
+
+                                        laFechaDelSorteo = elClienteDeSorteos.ConsultarUnSorteo(elIdDelSorteo).Fecha;
+                                        elClienteDeServicioDeCompraDeNumeros.AgregarDetalleVenta(elDetalleDeLaVenta, elNumeroComprado, elMontoDelNumeroComprado, elIdDelSorteo, laFechaDelSorteo);
+                                      
+                                        return RedirectToAction("Index");
+                                    }
+                                    else
+                                    {
+
+                                        ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient elClienteDeServicioDeSorteosRestricciones = new ServicioDeSorteosRestricciones.ServiciosDeSorteosRestriccionesClient();
+
+                                        var laRestriccionDelSorteo = elClienteDeServicioDeSorteosRestricciones.ConsultarUnSorteosConRestricciones(elSorteo.Id);
+
+                                        Decimal MontoRestriccionAcumulado = elClienteDeServicioDeCompraDeNumeros.ConsultarMontoAcumuladoRestriccion(elNumeroComprado, elSorteo.Id);
+
+                                        if (MontoRestriccionAcumulado + elMontoDelNumeroComprado <= laRestriccionDelSorteo.MontoMaximo)
+                                        {
+                                            laFechaDelSorteo = elClienteDeSorteos.ConsultarUnSorteo(elIdDelSorteo).Fecha;
+                                            elClienteDeServicioDeCompraDeNumeros.AgregarDetalleVenta(elDetalleDeLaVenta, elNumeroComprado, elMontoDelNumeroComprado, elIdDelSorteo, laFechaDelSorteo);
+                                            
+                                            return RedirectToAction("Index");
+                                        }
+                                        else
+                                        {
+
+                                            ViewBag.Indicador = false;
+                                            ViewBag.MontoAconsejadoDeCompra = laRestriccionDelSorteo.MontoMaximo - MontoRestriccionAcumulado;
+                                            ViewBag.Numero = laRestriccionDelSorteo.Numero;
+
+                                            return View();
+                                        }
+
+
+                                    }
+
+
+
+                                }
+                                catch
+                                {
+
+                                    return View();
+                                }
+
+
+                            }
+                            else
+                            {
+                                ViewData["elMensajeDeErrorEnElMontoNumeroComprado"] = "El el monto debe ser mayor a cero";
+                                ViewBag.Indicador = true;
+                                return View();
+                            }
+                        }
+                        else
+                        {
+                            ViewData["elMensajeDeErrorEnElNumeroComprado"] = "El número debe ser entre 1 y 99";
+                            ViewBag.Indicador = true;
+                            return View();
+                        }
+                    }
+                    else
+                    {
+                        ViewData["elMensajeDeErrorEnElNumeroComprado"] = "El número es requerido";
+                        ViewBag.Indicador = true;
+                        return View();
+                    }
+
+                }
+                else
+                {
+
+                    ViewData["elMensajeDeErrorEnElMontoNumeroComprado"] = "El el monto del número es requerido";
+                    ViewBag.Indicador = true;
+                    return View();
+                }
+
+
+            }
+            else
+            {
+
+                ViewData["elMensajeDeErrorEnElNumeroComprado"] = "El número es requerido";
+                ViewData["elMensajeDeErrorEnElMontoNumeroComprado"] = "El el monto del número es requerido";
+                ViewBag.Indicador = true;
+                return View();
+            }
+        }
+
+    }
+}

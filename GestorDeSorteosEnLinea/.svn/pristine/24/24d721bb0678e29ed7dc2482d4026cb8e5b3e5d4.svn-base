@@ -1,0 +1,103 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace GestorDeSorteosEnLinea.Business
+{
+    public class GestorDeOperaciones
+    {
+
+        public void AgregarUsuario(GestorDeSorteosEnLinea.Model.AspNetUsers elUsuario)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            lasOperaciones.AgregarUsuario(elUsuario);
+
+        }
+        public GestorDeSorteosEnLinea.Model.Sorteos ConsultarUnSorteo(int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ConsultarUnSorteo(Id);
+
+        }
+        public void AgregarSorteos(GestorDeSorteosEnLinea.Model.Sorteos elSorteo)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteo.Estado = Model.Estados.Activo;
+            lasOperaciones.AgregarSorteo(elSorteo);
+
+        }
+        public List<GestorDeSorteosEnLinea.Model.Sorteos> ListarSorteos()
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ListarSorteos();
+
+        }
+        public List<GestorDeSorteosEnLinea.Model.Sorteos> ListarSorteosActivos()
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ListarSorteosActivos();
+
+        }
+
+        public void ActivarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteo.Estado = Model.Estados.Activo;
+            lasOperaciones.CambiarDeEstadoUnSorteo(elSorteo);
+
+        }
+        public void DesactivarUnSorteo(GestorDeSorteosEnLinea.Model.Sorteos elSorteo)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteo.Estado = Model.Estados.Inactivo;
+            lasOperaciones.CambiarDeEstadoUnSorteo(elSorteo);
+
+        }
+        public GestorDeSorteosEnLinea.Model.SorteosHistorico ConsultarUnSorteoHistorico(int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+
+            return lasOperaciones.ConsultarUnSorteoHistorico(Id);
+
+        }
+        public void AgregarSorteosHistoricos(GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, int IdSorteo)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteoHistorico.IdSorteo = IdSorteo;
+            elSorteoHistorico.FechaDeModificacion = DateTime.Now;
+            elSorteoHistorico.DescripcionDeLaModificacion = "Registro de sorteo";
+            elSorteoHistorico.TipoDeModificacion = Model.TipoDeModificacion.Insercion;
+            elSorteoHistorico.Id_AspNetUser = "CoBa";
+            lasOperaciones.AgregarSorteoHistorico(elSorteoHistorico);
+
+        }
+        public void ActivarUnSorteoHistorico(GestorDeSorteosEnLinea.Model.SorteosHistorico elSorteoHistorico, int Id)
+        {
+            GestorDeSorteosEnLinea.DataAccess.Operaciones lasOperaciones;
+            lasOperaciones = new DataAccess.Operaciones();
+            elSorteoHistorico.IdSorteo = Id;
+            elSorteoHistorico.DescripcionDeLaModificacion = "Hola mundo";
+            elSorteoHistorico.FechaDeModificacion = DateTime.Now;
+            elSorteoHistorico.TipoDeModificacion = Model.TipoDeModificacion.Activacion;
+            lasOperaciones.CambiarDeEstadoUnSorteoHistorico(elSorteoHistorico);
+
+        }
+
+        
+    }
+}

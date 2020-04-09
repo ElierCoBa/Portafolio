@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ac76d18d-a00b-4273-a7f3-860db7302f75" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50469/ServiciosDeSorteosRestricciones.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiciosDeSorteosRestricciones.xsd" MetadataType="Schema" ID="ef2c8db2-f274-4e49-a344-7dcba85a1699" SourceId="1" SourceUrl="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiciosDeSorteosRestricciones.wsdl" MetadataType="Wsdl" ID="b1852cb7-1125-4202-9bf1-134b81dbdc05" SourceId="1" SourceUrl="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?wsdl" />
+    <MetadataFile FileName="ServiciosDeSorteosRestricciones1.xsd" MetadataType="Schema" ID="aa94d562-7a08-40f0-bc01-ee6254747c6a" SourceId="1" SourceUrl="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiciosDeSorteosRestricciones2.xsd" MetadataType="Schema" ID="953f3e59-3494-46d3-b680-69834d53d902" SourceId="1" SourceUrl="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiciosDeSorteosRestricciones.disco" MetadataType="Disco" ID="a1189a89-29e6-4e1b-8984-39f7576e0c96" SourceId="1" SourceUrl="http://localhost:50469/ServiciosDeSorteosRestricciones.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

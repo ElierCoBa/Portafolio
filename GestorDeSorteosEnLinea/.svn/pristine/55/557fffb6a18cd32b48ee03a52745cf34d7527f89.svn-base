@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using GestorDeSorteosEnLinea.Model;
+
+namespace GestorDeSorteosEnLinea.Model
+{
+    public class SorteosHistorico 
+    {
+      
+        public int Id { get; set; }
+        [Required]
+        public TipoDeModificacion TipoDeModificacion { get; set; }
+        [Required]
+        public string Id_AspNetUser { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime? FechaDeModificacion { get; set; }
+        [Required]
+        public string DescripcionDeLaModificacion { get; set; }
+        [Required]
+        public int IdSorteo { get; set; }
+
+    }
+
+    
+}

@@ -1,0 +1,53 @@
+﻿@model GestorDeSorteosEnLinea.Model.SorteosRestricciones
+
+@{
+    /**/
+
+    ViewBag.Title = "Agregar Restrición a un Sorteo";
+}
+
+<h2>Agregar Restrición a un Sorteo</h2>
+
+
+@if ((Boolean)ViewBag.yaExisteElSorteoConRestriccion == false)
+{
+
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <br>
+        <h3> Fecha del Sorteo: @Html.Label((string)ViewBag.Opciones)</h3>
+        <br>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <p><b>Numero</b> <input type="number" min="01" max="99" required class="form-control" name="elNumeroComprado" /></p>
+
+        <p><b>Monto</b> <input type="number" min="01" required class="form-control" name="elMontoComprado" /></p>
+        <br>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Crear" class="btn btn-default" />
+            </div>
+        </div>
+    }
+
+}
+else
+{
+    <br>
+    <h2> Este Sorteo ya posee una Restriccion, solo se permite una Restriccion por sorteo </h2>
+    <br>
+}
+
+
+
+
+<div>
+    @Html.ActionLink("Regresar a la lista", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

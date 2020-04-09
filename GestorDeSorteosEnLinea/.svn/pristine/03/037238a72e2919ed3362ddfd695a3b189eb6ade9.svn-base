@@ -1,0 +1,38 @@
+﻿@model GestorDeSorteosEnLinea.Model.SorteosRestricciones
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+
+    <br>
+    <h3> Fecha del Sorteo: @Html.Label((string)ViewBag.Opciones)</h3>
+    <br>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Número")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+
+        <dt>
+            @Html.Label("Monto máximo permitido por venta")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MontoMaximo)
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Regresar", "Index")
+</p>

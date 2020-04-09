@@ -1,0 +1,37 @@
+﻿@model GestorDeSorteosEnLinea.Model.Sorteos
+
+@{
+    ViewBag.Title = "Detalles del sorteo";
+}
+
+<h2>Detalles del sorteo</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Sorteos</h4>
+   
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayName("Fecha")
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Fecha)
+            </dd>
+        </dl>
+
+    @{
+        Html.RenderAction("_Create", "CompraDeNumeros");
+
+     }
+
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

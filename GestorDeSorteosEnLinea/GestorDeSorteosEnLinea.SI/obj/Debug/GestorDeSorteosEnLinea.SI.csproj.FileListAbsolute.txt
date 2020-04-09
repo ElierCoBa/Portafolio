@@ -1,0 +1,54 @@
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.SI.dll.config
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.SI.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.SI.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Business.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Net.Http.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Business.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Business.dll.config
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.csproj.CopyComplete
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.dll
+C:\Users\Elier CoBa\Desktop\Copia de proyecto\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.SI.dll.config
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.SI.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.SI.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.SqlServer.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Business.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Model.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Net.Http.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.DataAccess.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Business.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Business.dll.config
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.Model.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\EntityFramework.SqlServer.xml
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.DataAccess.pdb
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\GestorDeSorteosEnLinea.DataAccess.dll.config
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\es\EntityFramework.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.csprojAssemblyReference.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.csproj.CoreCompileInputs.cache
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.csproj.CopyComplete
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.dll
+C:\Users\Elier CoBa\source\repos\GestorDeSorteosEnLinea\GestorDeSorteosEnLinea.SI\obj\Debug\GestorDeSorteosEnLinea.SI.pdb

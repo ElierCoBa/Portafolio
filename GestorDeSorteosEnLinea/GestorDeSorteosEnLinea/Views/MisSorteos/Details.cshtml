@@ -1,0 +1,70 @@
+﻿@model GestorDeSorteosEnLinea.Model.SorteosDetalleVentas
+
+@{
+    ViewBag.Title = "Details";
+    
+}
+
+<h2>Detalles de los sorteos del usuario</h2>
+
+<div>
+  
+    <hr />
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayName("Fecha")
+        </dt>
+
+        <dd>
+            @Html.Label((string)ViewBag.Opciones)
+        </dd>
+        <dt>
+            @Html.DisplayName("Número")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+        <dt>
+            @Html.DisplayName("Primer número ganador")
+        </dt>
+
+        <dd>
+            @ViewData["PrimerLugar"]
+        </dd>
+        <dt>
+            @Html.DisplayName("Segundo número ganador")
+        </dt>
+
+        <dd>
+            @ViewData["SegundoLugar"]
+        </dd>
+        <dt>
+            @Html.DisplayName("Tercer número ganador")
+        </dt>
+
+        <dd>
+            @ViewData["TercerLugar"]
+        </dd>
+        <dt>
+            @Html.DisplayName("Monto Ganado")
+        </dt>
+
+        <dd>
+            @ViewData["MontoGanado"]
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Regresar", "Index")
+</p>

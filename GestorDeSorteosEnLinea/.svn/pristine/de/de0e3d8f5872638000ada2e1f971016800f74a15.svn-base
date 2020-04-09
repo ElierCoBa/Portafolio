@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GestorDeSorteosEnLinea.Model
+{
+    public class SorteosResultados
+    {
+        public int Id { get; set; }
+        public int IdSorteos { get; set; }
+        public int PrimerLugar { get; set; }
+        public int SegundoLugar { get; set; }
+        public int TercerLugar { get; set; }
+    }
+}

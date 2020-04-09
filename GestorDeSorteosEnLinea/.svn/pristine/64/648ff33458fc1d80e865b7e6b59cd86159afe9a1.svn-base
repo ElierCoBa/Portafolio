@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+using GestorDeSorteosEnLinea.Model;
+
+namespace GestorDeSorteosEnLinea.SI
+{
+
+    public class ServicioDeSorteosCerrados : IServicioDeSorteosCerrados
+    {
+        public Sorteos ConsultarUnSorteo(int id)
+        {
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+            GestorDeSorteosEnLinea.Model.Sorteos elSorteoAConsultar = new Model.Sorteos();
+
+            return elSorteoAConsultar = elGestorDeOperaciones.ConsultarUnSorteo(id);
+        }
+
+        public List<Sorteos> ListarSorteosCerrados()
+        {
+            List<GestorDeSorteosEnLinea.Model.Sorteos> laListaDeSorteos = new List<Model.Sorteos>();
+            GestorDeSorteosEnLinea.Business.GestorDeOperaciones elGestorDeOperaciones;
+            elGestorDeOperaciones = new Business.GestorDeOperaciones();
+
+            return laListaDeSorteos = elGestorDeOperaciones.ListarSorteosCerrados();
+        }
+    }
+}
