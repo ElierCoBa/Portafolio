@@ -222,8 +222,8 @@ namespace GestorDePermisosDeEstudio.Business
 
             try
             {
-                elCorreo.From = new MailAddress("residenciasSedeGuanacaste@gmail.com");
-                elCorreo.To.Add(new MailAddress("eliercortes12@gmail.com"));
+                elCorreo.From = new MailAddress("correo@gmail.com");
+                elCorreo.To.Add(new MailAddress("correo@gmail.com"));
                 elCorreo.Subject = elAsunto;
                 elCorreo.Body = elMensajeAEnviar;
                 elCorreo.IsBodyHtml = true;
@@ -233,7 +233,7 @@ namespace GestorDePermisosDeEstudio.Business
 
                 elClienteSmtp.UseDefaultCredentials = false;
                 elClienteSmtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-                elClienteSmtp.Credentials = new NetworkCredential("residenciasSedeGuanacaste@gmail.com", "Resi2019");
+                elClienteSmtp.Credentials = new NetworkCredential("correo@gmail.com", "contraseña");
                 elClienteSmtp.EnableSsl = true;
 
                 elClienteSmtp.Send(elCorreo);
