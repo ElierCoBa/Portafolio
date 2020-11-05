@@ -9,7 +9,7 @@ namespace GestorDePermisosDeEstudio.DataAccess
 {
     public class Context
     {
-        public string laCadenaDeConexion = "Data Source=DESKTOP-0OUF4U8\\SQLEXPRESS;Initial Catalog=ResidenciasSedeGuanacaste;Integrated Security=True";
+        public string laCadenaDeConexion = "Data Source=DESKTOP\\SQLEXPRESS;Initial Catalog=ResidenciasSedeGuanacaste;Integrated Security=True";
         public SqlConnection laConexionSQL = new SqlConnection();
 
         public Context()
